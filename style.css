@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #search-input {
+    border-radius: 0px 100px 100px 0px;
+    border: none;
+  }
+  #addon-wrapping {
+    border-radius: 100px 0px 0px 100px;
+    border: none;
+    background-color: white;'
+    
+    
+  }
+  .form-style{
+    border: gray 1px solid;
+    border-radius: 100px;
+  }
+  #search-input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }

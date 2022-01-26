@@ -3,19 +3,22 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bef7f13591.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col align-self-center">
-                    <form action="https://google.com/search">
-                        <input type="text" name="q">
-                        <input type="submit" value="Google Search">
+            <div class="col-6">
+            <div class="row">
+                
+                    <form action="https://google.com/search" class="input-group flex-nowrap p-0 form-style">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fas fa-search"></i></span>
+                        <input type="text" name="q" id="search-input" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
                     </form>
-                </div>
+            </div>
             </div>
         </div>
-
+        
         <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
