@@ -1,25 +1,59 @@
+@font-face {
+    font-family: "psbold";
+    src: url("font/PSBold.ttf")
+}
+
+@font-face {
+    font-family: "psregular";
+    src: url("font/PSRegular.ttf")
+}
+body{
+    font-family: "psregular";
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.f-psr {
+    font-family: "psregular";
+}
+.f-psb {
+    font-family: "psbold";
+}
+.top-container {
+    font-size: 14px;
+}
+
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-  }
-  #search-input {
+    padding-top: 15vh;
+}
+#search-input {
     border-radius: 0px 100px 100px 0px;
     border: none;
-  }
-  #addon-wrapping {
+}
+#addon-wrapping {
     border-radius: 100px 0px 0px 100px;
     border: none;
     background-color: white;
     
     
-  }
-  .form-style{
-    border: gray 1px solid;
+}
+.form-style{
+    border: rgb(194, 194, 194) 1px solid;
     border-radius: 100px;
-  }
-  #search-input:focus {
+}
+.fa-search {
+    color: rgb(180, 180, 180);
+}
+#search-input:focus {
     box-shadow: none !important;
     outline: none !important;
-  }
+}
