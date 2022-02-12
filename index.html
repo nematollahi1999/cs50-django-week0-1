@@ -9,8 +9,9 @@
     <body>
         <div class="top-container fs14">
             <ul class="list-unstyled p-3 d-flex justify-content-end align-items-center">
+                <li class="d-inline-block px-2"><a class="link-dark" href="advanced-search.img">Advanced Search</a></li>
                 <li class="d-inline-block px-2"><a class="link-dark" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-                <li class="d-inline-block px-2"><a class="link-dark" href="https://www.google.nl/imghp?hl=en&ogbl">Images</a></li>
+                <li class="d-inline-block px-2"><a class="link-dark" href="img-search.html">Images</a></li>
                 <li class="d-inline-block px-3"><a class="link-dark" href="https://www.google.nl/intl/en/about/products"><i class="fas fa-bars"></i></a></li>
                 <li class="d-inline-block px-2">
                     <a class="link-dark" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.nl/&ec=GAZAmgQ">
@@ -21,24 +22,29 @@
         </div>
         <div class="container">
             <div class="col-6">
-            <div class="row pb-5">
-
-                <div class="text-center">
-                    <img src="logo.png" alt="Google Logo">
+                <div class="row pb-5">
+                    <div class="text-center">
+                        <img src="logo.png" alt="Google Logo">
+                    </div>
                 </div>
-
-            </div>
-            <div class="row">
-                
-                <form action="https://google.com/search" class="input-group flex-nowrap p-0 form-style">
-                    <span class="input-group-text p-2" id="addon-wrapping"><i class="fas fa-search p-2"></i></span>
-                    <input type="text" name="q" id="search-input" class="form-control p-2" aria-label="Username" aria-describedby="addon-wrapping">
-                </form>
-            </div>
-            <div class="row d-flex justify-content-center px-5 pt-4 fs14">
-                <button type="button" class="btn btn-light col-4 mx-1 fs14">Google Search</button>
-                <button type="button" class="btn btn-light col-4 mx-1 fs14">I'm Feeling Lucky</button>
-            </div>
+                <div class="d-flex justify-content-center align-items-center row">
+                    <form action="https://google.com/search " class="input-group flex-nowrap p-0">
+                        <div class="col-12">
+                            <div class="input-group form-style">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-search p-2"></i></span>
+                                </div>
+                                <input type="text" name="q" id="search-input" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="col-12 pt-4">
+                                <div class="text-center">
+                                    <input type="submit" name=btnG value="Google Search" class="btn btn-light">
+                                    <input type="submit" name=btnI value="I'm Feeling Lucky" class="btn btn-light">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
         
