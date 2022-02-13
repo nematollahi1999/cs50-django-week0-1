@@ -85,3 +85,8 @@ a:hover {
 #submit-btn {
     padding-left: 820px;
 }
+
+/*Image Search*/
+#img-upload-icon {
+    width: 50%;
+}
