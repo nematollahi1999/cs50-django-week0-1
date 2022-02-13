@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bef7f13591.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="top-container fs14">
+            <!--Nav Bar-->
+            <div class="d-flex justify-content-between">
+            <!--Google tiny logo-->
+            <ul class="list-unstyled p-3 d-inline-block align-items-center ">
+                <li class="d-inline-block px-2">
+                    <a class="link-dark" href="index.html">
+                        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google logo">
+                    </a>
+                </li>
+            </ul>
+            <!--Nav items-->
+            <ul class="list-unstyled p-3 d-inline-block align-items-center">
+                <li class="d-inline-block px-2"><a class="link-dark" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                <li class="d-inline-block px-2"><a class="link-dark" href="img-search.html">Images</a></li>
+                <li class="d-inline-block px-3"><a class="link-dark" href="https://www.google.nl/intl/en/about/products"><i class="fas fa-bars"></i></a></li>
+                <li class="d-inline-block px-2">
+                    <a class="link-dark" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.nl/&ec=GAZAmgQ">
+                        <button type="button" class="btn btn-primary">Sign in</button>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <!--Advanced Search label-->
+        <div>
+            <label class="text-danger px-5" id="adsearch-label">Advanced Search</label>
+            <hr></hr>
+        </div>
+        <!--Form container-->
+        <div class="px-5" id="formcontainer">
+            <!--Form Secondary label-->
+            <div class="py-4">
+                <div class="float-left d-inline-block" id="column-left-label">Find pages with...</div>
+                <div class="text-muted column-right d-inline-block px-3">To do this in the search box.</div>
+            </div>
+            <!--Form itself-->
+            <form class="" action="https://google.com/search">
+                <div class="">
+                    <label class="column-left d-inline-block float-left fs14" for="all">all these words:</label>
+                    <input type="text" class="form-control column-center d-inline-block float-left" name="as_q"/>
+                    <label class="column-right d-inline-block float-right px-3 fs14" for="all">Type the important words:  tri-colour rat terrier</label>
+                 </div>
+                 <div class="">
+                    <label class="column-left d-inline-block float-left fs14" for="all">this exact word or phrase:</label>
+                    <input type="text" class="form-control column-center d-inline-block float-left" name="as_epq"/>
+                    <label class="column-right d-inline-block float-right px-3 fs14" for="all">Put exact words in quotes:  "rat terrier"</label>
+                 </div>
+                 <div class="">
+                    <label class="column-left d-inline-block float-left fs14" for="all">any of these words:</label>
+                    <input type="text" class="form-control column-center d-inline-block float-left" name="as_oq"/>
+                    <label class="column-right d-inline-block float-right px-3 fs14" for="all">Type OR between all the words you want: miniature OR standard</label>
+                 </div>
+                 <div class="">
+                    <label class="column-left d-inline-block float-left fs14" for="all">none of these words:</label>
+                    <input type="text" class="form-control column-center d-inline-block float-left" name="as_eq"/>
+                    <label class="column-right d-inline-block float-right px-3 fs14" for="all">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+                 </div>
+                 <!--Advanced Search Button-->
+                 <div id="submit-btn">
+                    <input type="submit" value="Advanced Search" class="btn btn-primary btn-xss">
+                 </div>
+            </form>
+        </div>
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
