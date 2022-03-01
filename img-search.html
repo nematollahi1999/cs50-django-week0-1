@@ -12,7 +12,7 @@
             <ul class="list-unstyled p-3 d-flex justify-content-end align-items-center">
                 <li class="d-inline-block px-2"><a class="link-dark" href="advanced-search.html">Advanced Search</a></li>
                 <li class="d-inline-block px-2"><a class="link-dark" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-                <li class="d-inline-block px-2"><a class="link-dark" href="img-search.html">Images</a></li>
+                <li class="d-inline-block px-2"><a class="link-dark" href="index.html">Google</a></li>
                 <li class="d-inline-block px-3"><a class="link-dark" href="https://www.google.nl/intl/en/about/products"><i class="fas fa-bars"></i></a></li>
                 <li class="d-inline-block px-2">
                     <a class="link-dark" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.nl/&ec=GAZAmgQ">
@@ -34,7 +34,7 @@
                 </div>
                 <!--Search Bar-->
                 <div class="d-flex justify-content-center align-items-center row">
-                    <form action="https://google.com/imghp?hl=en&ogbl " class="input-group flex-nowrap p-0">
+                    <form method="get" action="https://images.google.com/images" class="input-group flex-nowrap p-0">
                     <!--Inputs-->  
                         <div class="col-12">
                             <div class="input-group form-style">
@@ -43,7 +43,7 @@
                                 </div>
                                 <input type="text" name="q" id="search-input" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
                                 <div class="input-group-append">
-                                    <input type="image" class="pt-2 d-flex align-items-center" src="https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png" alt="Submit" id="img-upload-icon">
+                                    <input type="image" value="submit" class="pt-2 d-flex align-items-center" src="https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png" alt="Submit" id="img-upload-icon">
                                 </div>
                             </div>
                         </div>
@@ -51,6 +51,8 @@
                 </div>
             </div>
         </div>
+
+        
         
         <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
